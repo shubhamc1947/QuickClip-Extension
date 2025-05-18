@@ -1,0 +1,219 @@
+/* Scrollbar container */
+    ::-webkit-scrollbar {
+        width: 10px; 
+        height: 10px; 
+    }
+    
+    /* Scrollbar track (background) */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+    
+    /* Scrollbar thumb (the draggable part) */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+    }
+    
+    /* Scrollbar thumb on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+  
+      body {
+        width: 350px;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 10px;
+      }
+      h1 {
+        color: #4285f4;
+        font-size: 20px;
+        margin-top: 0;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .action-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+      #add-btn, #import-export-btn {
+        background-color: #4285f4;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 13px;
+      }
+      #import-export-btn {
+        margin-right: 8px;
+        background-color: #34a853;
+      }
+      #add-btn:hover, #import-export-btn:hover {
+        opacity: 0.9;
+      }
+      .buttons-container {
+        display: flex;
+      }
+      .item {
+        display: flex;
+        border: 1px solid #ddd;
+        padding: 10px;
+        border-radius: 4px;
+        position: relative;
+      }
+      .item-content {
+        flex-grow: 1;
+      }
+      .item-title {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+      }
+      .item-value {
+        font-size: 12px;
+        color: #555;
+        word-break: break-all;
+      }
+      .item-actions {
+        display: flex;
+        gap: 5px;
+        margin-left: 10px;
+      }
+      .copy-btn, .edit-btn, .delete-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 2px;
+      }
+      .copy-btn:hover, .edit-btn:hover, .delete-btn:hover {
+        background-color: #f1f1f1;
+        border-radius: 3px;
+      }
+      .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 1000;
+      }
+      .modal-content {
+        background-color: white;
+        margin: 15% auto;
+        padding: 20px;
+        width: 80%;
+        border-radius: 5px;
+      }
+      .form-group {
+        margin-bottom: 15px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      input, textarea, select {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      textarea {
+        height: 60px;
+        resize: vertical;
+      }
+      .modal-buttons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+      }
+      .save-btn {
+        background-color: #4285f4;
+        color: white;
+      }
+      .cancel-btn, .save-btn {
+        border: none;
+        padding: 5px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .success-message {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-size: 14px;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+      .no-items {
+        text-align: center;
+        color: #777;
+        margin-top: 20px;
+      }
+      .template-help {
+        font-size: 12px;
+        color: #666;
+        margin-top: 5px;
+      }
+      .type-badge {
+        font-size: 10px;
+        padding: 2px 6px;
+        border-radius: 10px;
+        margin-left: 5px;
+        color: white;
+      }
+      .template-badge {
+        background-color: #673ab7;
+      }
+      .placeholder {
+        background-color: #f1f8e9;
+        border-radius: 3px;
+        padding: 0 3px;
+        color: #33691e;
+      }
+      #import-export-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+      #import-export-buttons button {
+        width: 48%;
+        padding: 10px;
+      }
+      #export-data-btn {
+        background-color: #34a853;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      #import-data-btn {
+        background-color: #fbbc05;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      #import-input {
+        display: none;
+      }
+      h3 {
+        margin-top: 0;
+        color: #4285f4;
+      }
