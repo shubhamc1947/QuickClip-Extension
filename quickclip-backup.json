@@ -1,0 +1,44 @@
+[
+  {
+    "id": "id_i8afmor0t",
+    "title": "Linkedin",
+    "value": "https://www.linkedin.com/in/shubhamchat03/",
+    "type": "text",
+    "createdAt": "2025-06-05T02:49:48.106Z"
+  },
+  {
+    "id": "id_3xqe80w2s",
+    "title": "Github",
+    "value": "https://github.com/shubhamc1947",
+    "type": "text",
+    "createdAt": "2025-06-05T02:50:06.368Z"
+  },
+  {
+    "id": "id_23ids2aan",
+    "title": "Twitter",
+    "value": "https://x.com/shubham_1947/",
+    "type": "text",
+    "createdAt": "2025-06-05T02:50:30.450Z"
+  },
+  {
+    "id": "id_667j5op20",
+    "title": "Portfolio",
+    "value": "https://shu8h.vercel.app/",
+    "type": "text",
+    "createdAt": "2025-06-05T02:50:48.389Z"
+  },
+  {
+    "id": "id_gf94jmosa",
+    "title": "CollabCode",
+    "value": "https://colla8code.vercel.app/",
+    "type": "text",
+    "createdAt": "2025-06-05T02:51:13.078Z"
+  },
+  {
+    "id": "id_ahmqasdi7",
+    "title": "Referral",
+    "value": "Hi {NAME},\n\nI hope you are doing good,\n\nI am looking for {ROLE} role and found current hiring at {COMPANYNAME},\n\n{JOBLINK}\n\nI have 1YOE , working in Frontend (ReactJs, NextJs, Javascript), Backend (Nodejs, Golang) and a strong background in Agile environments,\n\nIf you're open to it, I would really appreciate a referral or any guidance you can offer regarding the role or the hiring process.\n\nThanks in advance for your time and support!\n\nBest Regards\nShubham Chaturvedi",
+    "type": "template",
+    "createdAt": "2025-06-05T02:54:51.694Z"
+  }
+]
