@@ -7,13 +7,6 @@
     "createdAt": "2025-06-05T02:49:48.106Z"
   },
   {
-    "id": "id_3xqe80w2s",
-    "title": "Github",
-    "value": "https://github.com/shubhamc1947",
-    "type": "text",
-    "createdAt": "2025-06-05T02:50:06.368Z"
-  },
-  {
     "id": "id_23ids2aan",
     "title": "Twitter",
     "value": "https://x.com/shubham_1947/",
@@ -28,6 +21,13 @@
     "createdAt": "2025-06-05T02:50:48.389Z"
   },
   {
+    "id": "id_3xqe80w2s",
+    "title": "Github",
+    "value": "https://github.com/shubhamc1947",
+    "type": "text",
+    "createdAt": "2025-06-05T02:50:06.368Z"
+  },
+  {
     "id": "id_gf94jmosa",
     "title": "CollabCode",
     "value": "https://colla8code.vercel.app/",
@@ -35,10 +35,31 @@
     "createdAt": "2025-06-05T02:51:13.078Z"
   },
   {
+    "id": "id_hf6cs81gi",
+    "title": "LeetCode",
+    "value": "https://leetcode.com/u/Shubham_1947/",
+    "type": "text",
+    "createdAt": "2025-06-05T13:37:13.231Z"
+  },
+  {
+    "id": "id_w1vjrhv8r",
+    "title": "referral v2",
+    "value": "Hi {NAME},\n\nHope you're doing well! I'm looking for a {ROLE} role and found this opening at {COMPANYNAME}:\n{JOBLINK}\n\nQuick background:\n. 1+ years of experience in React.js, Node.js, Golang, AWS\n. Built microservices handling 600k+ monthly transactions\n. Achieved 99.9% uptime with optimized infrastructure\n. Optimized frontend performance using Lighthouse and Web Vitals\n\nWould really appreciate a referral or any guidance about the role!\nThanks for your time!\nBest,\nShubham Chaturvedi\nshubhamchat99@gmail.com\nlinkedin.com/in/shubhamchat03",
+    "type": "template",
+    "createdAt": "2025-07-09T17:47:42.752Z"
+  },
+  {
     "id": "id_ahmqasdi7",
     "title": "Referral",
     "value": "Hi {NAME},\n\nI hope you are doing good,\n\nI am looking for {ROLE} role and found current hiring at {COMPANYNAME},\n\n{JOBLINK}\n\nI have 1YOE , working in Frontend (ReactJs, NextJs, Javascript), Backend (Nodejs, Golang) and a strong background in Agile environments,\n\nIf you're open to it, I would really appreciate a referral or any guidance you can offer regarding the role or the hiring process.\n\nThanks in advance for your time and support!\n\nBest Regards\nShubham Chaturvedi",
     "type": "template",
     "createdAt": "2025-06-05T02:54:51.694Z"
+  },
+  {
+    "id": "id_kelpfitcg",
+    "title": "job desc covrzy",
+    "value": "Bangalore\nArchitected and optimized AWS infrastructure for Travel APIs, achieving 99.9% uptime, averaging less than 200ms\nresponse time, and handling 600k monthly bookings.\n Integrated Slack webhooks across all products ( Health, Liability ) to enable zero delay client request routing to\nthe sales team, reducing response time from 24 hours to 1 hour.\nDeveloped scalable and maintainable web applications using Node.js, TypeScript, PostgreSQL, and React.js,\nensuring efficiency and user-focused design. This contributed to more than 966K impressions and 12.6K+ clicks\nwithin 5 months",
+    "type": "text",
+    "createdAt": "2025-06-12T14:55:39.796Z"
   }
 ]
